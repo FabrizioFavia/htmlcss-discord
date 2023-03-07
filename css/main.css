@@ -19,7 +19,7 @@ header{
 }
 
 .totalViewPort{width: 100vw;}
-.topBottomMargin{margin: 2em auto 2em;}
+.topBottomMargin{margin: 4em auto 4em;}
 .totalMinHeight{min-height: 100%;}
 .dashedBlack{border: 2px dashed black;}
 
@@ -117,7 +117,8 @@ a{
 
 /* inizio main */
 
-.mainContainer{min-height: 450px;}
+.mainContainer{min-height: 628px;}
+
 
 .bicolor{
     max-width: 900px;
@@ -128,15 +129,42 @@ a{
 
 .left{
     width: calc(100%/5*3);
-    background-color: #1e90ff;
+}
+
+.frogContainer{
+    padding-right: 3%;
+    margin-top: 3%;
+}
+
+.frog{
+    width: 100%;
+}
+
+.wave{
+    opacity: 4%;
+    display: block;
 }
 
 .right{
     width: calc(100%/5*2);
-    background-color: #ffc0cb;
 }
 
-main .mainContainer:nth-child(even){background-color: #d3d3d3;}
+.frogTitle{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 47px;
+    margin-left: 50px;
+    width: 65%;
+    line-height: 1.4;
+}
+
+.frogParagraph{
+    margin-left: 50px;
+    width: 70%;
+    font-size: 14px;
+}
+
+main .mainContainer:nth-child(even){background-color: #f6f6f6;}
 
 .customGreenContainer{
     background-color: #d3d3d3;
