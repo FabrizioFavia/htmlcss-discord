@@ -240,7 +240,7 @@ h2{
 }
 
 .greyFooterBox{
-    min-height: 500px;
+    min-height: 435px;
     background-color: #23272a;
     padding-top: 5em;
 }
@@ -254,9 +254,9 @@ h2{
 
 .midBox{
     max-width: 900px;
-    min-height: 450px;
+    min-height: 360px;
     margin: 0 auto;
-    border-bottom: 1px solid #8ea1e1;
+    border-bottom: 0.5px solid #8ea1e1;
 }
 
 .pinkFooterBox{
@@ -317,7 +317,7 @@ h2{
 
 .lastFooterBox{
     background-color: #23272a;
-    min-height: 70px;
+    min-height: 150px;
     padding-top: 1em;
 }
 
@@ -325,13 +325,19 @@ h2{
     max-width: 900px;
     min-height: 50px;
     margin: 0 auto;
-    display: flex;
     align-items: center;
     justify-content: space-between;
+    align-content: center;
 }
-.buttonContainer .login > .accesso{
 
+.buttonContainer > .logo{
+    padding-top: 0.7em;
+}
+
+.buttonContainer .login > .accesso{
 margin-left: 60px;
 }
+
+
 
 
