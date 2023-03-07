@@ -1,6 +1,9 @@
 *{box-sizing: border-box;}
 
-body{margin: 0;}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .flex{
     display: flex;
@@ -10,48 +13,106 @@ header, main{
     flex-direction: column;
 }
 
+header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
 .totalViewPort{width: 100vw;}
 .topBottomMargin{margin: 2em auto 2em;}
 .totalMinHeight{min-height: 100%;}
 .dashedBlack{border: 2px dashed black;}
-.upperContainer{ background-color: #add8e6;}
+
+.btnSpace{
+    border-radius: 20px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-weight: 500;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.headerParagraph{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.8;
+    width: 78%;
+    margin: 10px auto 25px;
+    font-size: 14px;
+}
 
 .upperContent{
     /* perché in questo caso non accetta la max-width? */
     min-height: 30px;
-    min-width: 1000px;
-    background-color: #daa520;
-    justify-content: space-between;
+    min-width: 1100px;
+    justify-content: space-evenly;
     margin: 1em auto 1em;
 }
 
 .link{
     width: calc(100%/5*3);
-    border: 1px dashed black;
     text-align: center;
-    padding-top: 0.2em;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 a{
     text-decoration: none;
-    color: black;
-    margin-right: 0.2em;
+    color: white;
+    font-size: 14px;
+    margin-right: 40px;
+    font-weight: 500;
 }
 
-.logo, .login{
+.logo{
     width: calc(100%/5);
-    border: 1px dashed black;
     padding: 0.2em 0.5em 0 0.5em;
+    color: white;
 }
 
-.login{text-align: right;}
+.login{
+    width: calc(20%);
+    color: black;
+    padding-top: 0.2em;
+    padding-left: 3em;
+}
 
-.hero{background-color: #00008b;}
+.accesso{
+    color: black;
+    background-color: white;
+    padding: 0.5em 1em 0.5em 1em; 
+    padding-top: 0.5em;
+    border-radius: 50px;
+}
+
 
 .heroContent{
     max-width: 50%;
     min-height: 300px;
-    background-color: #ee82ee;
+}
+
+.heroBtnContainer{
+    max-width:80%;
+    height: 43px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.whiteBtn{
+    background-color: white;
+    color: black;
+}
+
+.blackBtn{
+    background-color: black;
+    color: white;
 }
 
 /* inizio main */

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +13,39 @@
 <body>
     <!-- inizio header -->
     <header class="flex">
+
+        <!-- nav -->
         <div class="upperContainer flex totalViewPort">
             <div class="upperContent topBottomMargin flex"> 
-                <div class="logo totalMinHeight">logo</div>
+                <div class="logo totalMinHeight">
+                    <img src="./img/logo.svg" alt="">
+                </div>
                 <div class="link totalMinHeight">
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
+                    <a href="#">Scarica</a>
+                    <a href="#">Perché Discord</a>
+                    <a href="#">Nitro</a>
+                    <a href="#">Sicurezza</a>
+                    <a href="#">Assistenza</a>
                 </div>
                 <div class="login totalMinHeight">
-                    login
+                    <a class="accesso" href="#">Accedi</a>
                 </div>
             </div>
         </div>
+        <!-- fine nav -->
+
+        <!-- inizio hero -->
         <div class="hero totalViewPort">
-            <div class="heroContent topBottomMargin dashedBlack"></div>
+            <div class="heroContent topBottomMargin">
+                <h1>Il tuo posto per parlare</h1>
+                <p class="headerParagraph">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso</p>
+
+                <!-- Contenitore bottoni hero -->
+                <div class="heroBtnContainer">
+                    <div class="whiteBtn btnSpace">&#8595; Scarica per Mac</div>
+                    <div class="blackBtn btnSpace">Apri Discord nel tuo Browser</div>
+                </div>
+            </div>
         </div>
     </header>
 
