@@ -242,42 +242,96 @@ h2{
 .greyFooterBox{
     min-height: 500px;
     background-color: #23272a;
-    padding-top: 0.5em;
-    border-bottom: 2px solid white;
+    padding-top: 5em;
+}
+
+.bigColumnHeading{
+    color: #8ea1e1;
+    font-weight: bold;
+    font-size: 28px;
+    padding-right: 20px;
 }
 
 .midBox{
     max-width: 900px;
     min-height: 450px;
     margin: 0 auto;
+    border-bottom: 1px solid #8ea1e1;
 }
 
 .pinkFooterBox{
     min-width: 260px;
-    background-color: #f08080;
+}
+
+.flagContainer{
+    width: 100%;
+    display: flex;
+}
+
+.flagContainer > img{
+    width: 8%;
+    height: 5%;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.flagContainer p{
+    color: white;
+    vertical-align: middle;
+    margin:0;
+    font-size: 14px;
+}
+
+.logosContainer{
+    display: flex;   
+}
+
+.logosContainer i{
+    width: 8%;
+    color: white;
+    padding-top: 15px;
+    margin-right: 15px;
 }
 
 .cutContainer{max-width: 640px;}
 
 .partialBox{
     min-width: 160px;
-    background-color: #20b2aa;
-    border: 2px dashed white;
+}
+
+.partialBox .heading{
+    color: #8ea1e1;
+}
+
+.partialBox > ul li{
+    color: white;
+    font-size: 14px;
+    list-style: none;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.partialBox > ul{
+    margin-top: 0;
 }
 
 .lastFooterBox{
     background-color: #23272a;
-    min-height: 60px;
+    min-height: 70px;
     padding-top: 1em;
 }
 
 .buttonContainer{
     max-width: 900px;
     min-height: 50px;
-    background-color: #7fffd4;
     margin: 0 auto;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.buttonContainer .login > .accesso{
 
-button{background-color: #ffb6c1;}
+margin-left: 60px;
+}
+
+
