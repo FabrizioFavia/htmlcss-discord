@@ -22,6 +22,13 @@ header{
 .topBottomMargin{margin: 4em auto 4em;}
 .totalMinHeight{min-height: 100%;}
 .dashedBlack{border: 2px dashed black;}
+.imgSpaceRight{padding-right: 50px;}
+.customImgSpaceRight{
+    padding-right: 100px;
+}
+.imgSpaceLeft{
+    padding-left: 50px;
+}
 
 .btnSpace{
     border-radius: 20px;
@@ -126,6 +133,14 @@ a{
 
 .reverse{flex-direction: row-reverse;}
 
+.customLeft{
+    width: 75;
+    border: 1px solid red;
+}
+
+.customRight{
+    width: 60%;
+}
 .left{
     width: calc(100%/5*3);
 }
@@ -179,7 +194,20 @@ main .mainContainer:nth-child(even){background-color: #f6f6f6;}
 .customGreenBox{
     max-width: 900px;
     min-height: 700px;
-    background-color: #228b22;
+}
+
+.bigImageTitle{
+font-size: 35px;
+text-align: center;
+font-weight: 700;
+width: 90%;
+margin: 0 auto 20px;
+}
+
+.bigImageParagraph{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .greyFooterBox{
