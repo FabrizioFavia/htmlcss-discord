@@ -30,12 +30,6 @@ header{
     padding-left: 50px;
 }
 
-.btnSpace{
-    border-radius: 20px;
-    padding: 0.5em 1.5em 0.5em 1.5em;
-    font-weight: 500;
-}
-
 h1{
     color: white;
     text-align: center;
@@ -117,10 +111,31 @@ a{
     background-color: white;
     color: black;
 }
-
 .blackBtn{
     background-color: black;
     color: white;
+}
+.purpleBtn{
+    background-color: #8ea1e1;
+    color: white;
+    max-width: 180px;
+    margin: 10px auto 80px auto;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 1em 1.5em 1em 1.5em;
+    border: 0;
+    font-size: 16px;
+}
+
+.purpleBtnContainer{
+    width: 180px;
+    margin: 0 auto;
+}
+
+.btnSpace{
+    border-radius: 20px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-weight: 500;
 }
 
 /* inizio main */
@@ -151,7 +166,7 @@ a{
 }
 
 .imgSection{
-    width: 110%;
+    width: 115%;
 }
 
 .greyWave{
@@ -169,16 +184,15 @@ a{
 }
 
 .sectionTitle{
-    font-size: 35px;
+    font-size: 37px;
     font-weight: 700;
     margin-top: 47px;
-    margin-left: 45px;
+    margin-left: 85px;
     width: 80%;
-    line-height: 1.2;
 }
 
 .sectionParagraph{
-    margin-left: 50px;
+    margin-left: 85px;
     width: 75%;
     font-size: 15px;
     font-weight: 500;
@@ -204,10 +218,25 @@ width: 90%;
 margin: 0 auto 20px;
 }
 
+h2{
+    margin: 0 auto 20px;
+}
+
 .bigImageParagraph{
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+}
+
+.starImg{
+    min-width: 50px;
+    margin: 0 auto;
+}
+
+.lowerContainer{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .greyFooterBox{
@@ -236,7 +265,7 @@ margin: 0 auto 20px;
     border: 2px dashed white;
 }
 
-.lastFooterPart{
+.lastFooterBox{
     background-color: #23272a;
     min-height: 60px;
     padding-top: 1em;
