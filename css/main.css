@@ -33,6 +33,7 @@ h1{
     color: white;
     text-align: center;
     margin-top: 40px;
+    font-size: 40px;
 }
 
 .headerParagraph{
@@ -97,7 +98,7 @@ a{
 }
 
 .heroBtnContainer{
-    max-width:80%;
+    max-width: 70%;
     height: 43px;
     margin: 0 auto;
     display: flex;
@@ -117,8 +118,6 @@ a{
 
 /* inizio main */
 
-.mainContainer{min-height: 628px;}
-
 
 .bicolor{
     max-width: 900px;
@@ -136,12 +135,17 @@ a{
     margin-top: 3%;
 }
 
-.frog{
-    width: 100%;
+.imgSection{
+    width: 110%;
 }
 
-.wave{
+.greyWave{
     opacity: 4%;
+    display: block;
+}
+
+.whiteWave{
+    opacity: 3;
     display: block;
 }
 
@@ -149,25 +153,26 @@ a{
     width: calc(100%/5*2);
 }
 
-.frogTitle{
-    font-size: 30px;
+.sectionTitle{
+    font-size: 35px;
     font-weight: 700;
     margin-top: 47px;
-    margin-left: 50px;
-    width: 65%;
-    line-height: 1.4;
+    margin-left: 45px;
+    width: 80%;
+    line-height: 1.2;
 }
 
-.frogParagraph{
+.sectionParagraph{
     margin-left: 50px;
-    width: 70%;
-    font-size: 14px;
+    width: 75%;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 main .mainContainer:nth-child(even){background-color: #f6f6f6;}
 
 .customGreenContainer{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
     min-height: 500px;
 }
 
